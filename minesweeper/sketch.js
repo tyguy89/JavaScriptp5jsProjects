@@ -122,7 +122,7 @@ function draw() {
     textStyle(BOLD);
     fill(0, 255, 0);
     //Displaying text
-    text("Congratulations! Press 'r' or shake to restart", width/2, height/1.2);
+    text("Congratulations! Press 'r' to restart", width/2, height/1.2);
   }
 
   //GameOver
@@ -131,7 +131,7 @@ function draw() {
     textStyle(BOLD);
     fill(255, 0, 0);
     //Displaying text
-    text("Game over!, press 'r' or shake to restart.", width/5, height/2);
+    text("Game over!, press 'r' to restart.", width/5, height/2);
   }
 
 }
